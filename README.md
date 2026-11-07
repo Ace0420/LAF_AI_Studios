@@ -17,7 +17,7 @@ Replaces the ValyrianTech one-click image (`valyriantech/ace-step-1.5`).
 - `test_input.json`: sample request for the RunPod test tab
 
 ## Deploy from your phone (you don't need Docker)
-1. Create a GitHub repo, e.g. `laf-acestep-worker`. Add these 3 files with GitHub's "Add file > Create new file".
+1. Repo: `Ace0420/LAF_AI_Studios` (Dockerfile at the root).
 2. RunPod > Settings > Connections > GitHub > Connect. Allow access to that repo only.
 3. RunPod > Serverless > New Endpoint > GitHub repo. Pick the repo, branch `main`, Dockerfile path `Dockerfile`.
 4. GPU: a 24 GB tier. **Don't use MIG cards.** Max workers 1 for now. Active workers 0. Idle timeout 5 s.

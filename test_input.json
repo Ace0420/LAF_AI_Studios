@@ -1,0 +1,10 @@
+{
+  "input": {
+    "caption": "doom metal building into power metal, crushing guitars, bright female vocals, epic choir",
+    "lyrics": "[Verse]\nLike I said again\nThe night is not the end\n\n[Chorus]\nRise, rise, the dawn is ours",
+    "duration": 60,
+    "batch_size": 1,
+    "format": "mp3",
+    "rewrite_caption": false
+  }
+}
